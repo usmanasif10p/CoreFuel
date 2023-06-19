@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+CoreFuel in Pods, no dependencies
+Pods-CoreFuel_Example in Pods, depends on:
+CoreFuel in Pods (explicit)
+Pods-CoreFuel_Tests in Pods, depends on:
+Pods-CoreFuel_Example in Pods (explicit)
