@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '14.1'
+
+target 'CoreFuel_Example' do
+  pod 'CoreFuel', :path => '../'
+
+  target 'CoreFuel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
